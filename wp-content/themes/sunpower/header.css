@@ -1,0 +1,13 @@
+li.menu-item a {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+  height: 85%;
+	color: #49494B !important;
+}
+li.menu-item a:hover {
+	background: linear-gradient(to top, #e6ab4c 0%,#e6ab4c 10px, transparent 0px);
+}
+li.current_page_item a {
+	background: linear-gradient(to top, #e6ab4c 0%,#e6ab4c 10px, transparent 0px);
+}

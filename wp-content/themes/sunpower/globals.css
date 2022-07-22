@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Reem_Kufi";
+  src: url(./Reem_Kufi/ReemKufi-Regular.ttf);
+}
+* {
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  display: inline-block;
+  font-size: 36;
+  font-family: "Reem_Kufi";
+  background: linear-gradient(to top, #f7c26b 45%, transparent 0px);
+}
+
+.card-shadow {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(73, 73, 75, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.btn-shadow {
+  background: #f7c26b;
+  border-radius: 10px;
+  box-shadow: -6px 6px 0px #e39311;
+  transition: ease 0.8s;
+}
+
+.btn-shadow:hover {
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px #e39311;
+  transition: ease 0.4s;
+}
+
+.btn-shadow a:hover {
+  text-decoration: none;
+}
+
+.btn-inverse-shadow {
+  border: 1px #F4F4F4 solid;
+  border-radius: 10px;
+  background: #F9F9F9;
+  box-shadow: -6px 6px 0px #e39311;
+}

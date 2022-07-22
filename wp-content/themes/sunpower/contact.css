@@ -1,0 +1,14 @@
+h1 {
+  display: none;
+}
+
+.bloc-contact {
+  align-items: center;
+  border: #49494B;
+  border-radius: 1em;
+  box-shadow: #E39311;
+}
+
+.h2-contact {
+  align-items: center;
+}

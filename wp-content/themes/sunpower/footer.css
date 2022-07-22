@@ -1,0 +1,30 @@
+footer .bg-custom {
+	background-color: #F7C26B;
+}
+
+footer .bg-grey {
+	background-color: #F9F9F9;
+}
+
+footer h5 {
+  display: inline-block;
+  font-size: 36;
+  font-family: "Reem_Kufi";
+  background: linear-gradient(to top,white 45%, transparent 0px);
+}
+
+
+footer p{
+  font-size: 18;
+}
+
+footer .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+footer #image {
+  border-radius: 15;
+}
